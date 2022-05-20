@@ -1,0 +1,11 @@
+#Create an Event
+eventcreate /SO Source /Id eventid /D Description /T EventType /L EventLogfileName
+
+Example:
+eventcreate /SO "error" /Id 50 /D "There is an error!" /T ERROR /L Application
+This will create an Event with 
+- /SO "error"
+- /Id "50"
+- /D "There is an error!"
+- /T "error"
+- /L "Application"
